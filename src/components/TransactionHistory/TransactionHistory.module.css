@@ -1,0 +1,29 @@
+.transactionTable {
+  background-color: #fff;
+  width: 600px;
+  margin: 0px auto;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+th,
+td {
+  height: 50px;
+  text-align: center;
+}
+
+th {
+  background-color: #00bcd5;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+tr {
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #ecf1f4;
+}
